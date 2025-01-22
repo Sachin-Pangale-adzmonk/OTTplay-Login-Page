@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #1e0a3d;
+}
+
+
+nav {
+  padding: 0 40px;
+  background: linear-gradient(#1e0a3e, #1e0a3e);
+  filter: drop-shadow(1px 1px 10px rgb(0, 0, 0, 0.4));
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #f00, #00f);
+  border-image-slice: 1;
+  padding: 20px;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+}
+
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin: 40px 0 20px 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(44, 34, 109, 0.5);
+  backdrop-filter: blur(14.1px);
+  -webkit-backdrop-filter: blur(14.1px);
+  border: 1px solid rgba(93, 75, 207, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(67, 66, 66, 0.2) 0px -2px 6px 0px inset;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  color: #fff;
+  border: 1px solid #738cba;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
